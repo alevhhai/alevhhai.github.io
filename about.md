@@ -3,9 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+###### Hey!
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Abraham Levine. I program (mostly for the web, Java, Android, or sometimes other languages), make music (although not good at the moment), glitch art, and many other things.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+###### Theme
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The theme is Jekyll MDL, licensed under the Apache 2.0 license.
+
+The theme is available [here](https://github.com/gdg-managua/jekyll-mdl/).
+
+See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md) file for more details.
+
+Theme copyright © 2015 [Google Developers Group Managua](http://www.gdgmanagua.org).
