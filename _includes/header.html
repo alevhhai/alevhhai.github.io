@@ -1,50 +1,14 @@
-  <header class="mdl-layout__header">
+<nav id="my-menu">
+  <div>
+    <p>{{ site.title }}</p>
 
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">{{ site.title }}</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-      {% for page in site.pages %}
-        {% if page.title %}
-        <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-      </nav>
+    <ul class="pages">
+      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
+      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
+    </ul>
 
-      <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-          <i class="material-icons">search</i>
-        </label>
-        <div class="mdl-textfield__expandable-holder">
-          <input class="mdl-textfield__input" type="text" id="search-field" />
-        </div>
-      </div>
-
-      <button class="mdl-button mdl-js-button mdl-button--icon" id="menu-lower-left">
-        <i class="material-icons">more_vert</i>
-      </button>
-
-      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lower-left">
-        <li class="mdl-menu__item">Some Action</li>
-        <li class="mdl-menu__item">Another Action</li>
-        <li disabled class="mdl-menu__item">Disabled Action</li>
-        <li class="mdl-menu__item">Yet Another Action</li>
-      </ul>
-    </div>
-  </header>
-
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Menu</span>
-    <nav class="mdl-navigation">
-    {% for page in site.pages %}
-      {% if page.title %}
-      <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
-    </nav>
-
+    {% include social_links.html %}
   </div>
-
+</nav>
+<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>

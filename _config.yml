@@ -1,16 +1,19 @@
 # Site settings
-title: Abraham Levine
+title: "Abraham Levine"
 email: alevine@hhai.org
-description: Abraham Levine's school website
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alevhhai.github.io" # the base hostname & protocol for your site
-github_username:  arcetera
+description: "Abraham Levine's school website"
+baseurl: "http://alevhhai.github.io"
+title_description: "Hey! I'm Abraham. I write code, make glitch art, sometimes (poorly) make music, and listen to too much music."
+title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+post_limit: 5
 
-# Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-markdown: kramdown
-
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
