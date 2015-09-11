@@ -13,6 +13,6 @@ The theme is Jekyll MDL, licensed under the Apache 2.0 license.
 
 The theme is available [here](https://github.com/gdg-managua/jekyll-mdl/).
 
-See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md) file for more details.
+See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE) file for more details.
 
 Theme copyright © 2015 [Google Developers Group Managua](http://www.gdgmanagua.org).
