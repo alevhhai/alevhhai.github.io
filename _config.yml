@@ -7,10 +7,6 @@ title_description: "Hey! I'm Abraham. I write code, make glitch art, sometimes (
 title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 post_limit: 5
 
-# Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-
 # Build settings
 markdown: redcarpet
 redcarpet:
